@@ -1,1 +1,7 @@
-# Projects
+ Breast cancer poses a significant threat to women, leading to high morbidity and mortality rates. However, the absence of robust prognosis models has made it challenging for medical professionals to formulate effective treatment plans. This project aimed to address this critical issue by developing predictive techniques that minimize errors and enhance diagnostic accuracy.
+
+To achieve this, we compared the performance of four distinct algorithms, namely Logistic Regression, Random Forest, K-Nearest Neighbors (KNN), and deep learning transfer learning with the VGG16 model. We used a variety of datasets and executed all experiments in a simulated environment within the Google Colab platform.
+
+Our approach involved sequential forward selection-based feature selection and leveraging the VGG16 model for feature extraction. By analyzing parameters such as smoothness_area and text_area in mammography images, we aimed to distinguish between benign and malignant breast tumors. Notably, our study yielded remarkable results, with the highest overall accuracy achieved at 96.10% and 94.70% for the Random Forest and Logistic Regression classifier models, respectively, across two widely recognized breast cancer benchmark datasets.
+
+This project represents a significant step towards improving breast cancer diagnosis accuracy. Future research avenues could explore additional parameters, potentially categorizing breast cancer research based on various other factors.
